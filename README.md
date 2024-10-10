@@ -16,6 +16,9 @@ Stack Visualizer is a simple React application that visually demonstrates stack 
 - Visualize the stack contents with color-coded items
 - Displays user messages for stack operations
 
+## Demo
+<img width="872" alt="{625D5378-BFB9-417F-8CF7-F20FA02128D1}" src="https://github.com/user-attachments/assets/15e3a57e-0007-42d2-8996-8b21d481722b">
+
 ## Getting Started
 
 ### Prerequisites
