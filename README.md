@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Stack Visualizer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Stack Visualizer is a simple React application that visually demonstrates stack operations such as **push** and **pop**. This project is a great way to understand how a stack works and to see the Last In, First Out (LIFO) principle in action. The application allows users to add values to a stack, view them as they are added, and remove them from the stack.
 
-## Available Scripts
+## Table of Contents
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+- [Usage](#usage)
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
+- Add (Push) items to the stack
+- Remove (Pop) items from the stack
+- Visualize the stack contents with color-coded items
+- Displays user messages for stack operations
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+### Prerequisites
+- [Node.js](https://nodejs.org/) installed on your machine
+- [Git](https://git-scm.com/) for version control (optional)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
+1. **Enter a Value**: Type a value into the input field provided at the top of the application.
+2. **Push**: Click the "Push" button to add the value to the top of the stack. The stack follows the Last In, First Out (LIFO) principle, so the most recently pushed item is displayed at the top.
+3. **Pop**: Click the "Pop" button to remove the top item from the stack. If the stack is empty, a message will display indicating that the stack is empty.
+4. **Keyboard Shortcut**: You can press the **Enter** key to quickly push the value entered in the input field onto the stack.
 
-### `npm run build`
+Each item in the stack is color-coded to differentiate between them, and a message is displayed below the buttons to confirm each action.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contributing
+We welcome contributions to the Stack Visualizer project! If you would like to contribute, please follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Fork the Repository**: Go to the [Stack Visualizer repository](https://github.com/Balaji91221/stack-visualizer) and click the "Fork" button to create a copy of the repository on your GitHub account.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Clone the Forked Repository**: Clone the forked repository to your local machine.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
